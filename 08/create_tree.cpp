@@ -7,8 +7,8 @@ using namespace std;
 struct Node 
 {
     int key;
-    Node* right;
     Node* left;
+    Node* right;
     
     Node(int value) : key(value), right(nullptr), left(nullptr) {}
 };
