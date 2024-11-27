@@ -19,6 +19,7 @@ void preOrder(Node* root, ofstream& output);
 
 int main() 
 {
+
     ifstream input("input.txt");
     ofstream output("output.txt");
 
